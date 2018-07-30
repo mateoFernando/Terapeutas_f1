@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED37A901210FCCC100832979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37A900210FCCC100832979 /* AppDelegate.m */; };
+		ED37A904210FCCC100832979 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37A903210FCCC100832979 /* ViewController.m */; };
+		ED37A907210FCCC100832979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED37A905210FCCC100832979 /* Main.storyboard */; };
+		ED37A90A210FCCC100832979 /* terapeutas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED37A908210FCCC100832979 /* terapeutas.xcdatamodeld */; };
+		ED37A90C210FCCC200832979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED37A90B210FCCC200832979 /* Assets.xcassets */; };
+		ED37A90F210FCCC200832979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED37A90D210FCCC200832979 /* LaunchScreen.storyboard */; };
+		ED37A912210FCCC200832979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37A911210FCCC200832979 /* main.m */; };
+		ED37A91C210FCCC200832979 /* terapeutasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37A91B210FCCC200832979 /* terapeutasTests.m */; };
+		ED37A927210FCCC300832979 /* terapeutasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37A926210FCCC200832979 /* terapeutasUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED37A918210FCCC200832979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED37A8F4210FCCC100832979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED37A8FB210FCCC100832979;
+			remoteInfo = terapeutas;
+		};
+		ED37A923210FCCC200832979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED37A8F4210FCCC100832979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED37A8FB210FCCC100832979;
+			remoteInfo = terapeutas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED37A8FC210FCCC100832979 /* terapeutas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terapeutas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED37A8FF210FCCC100832979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED37A900210FCCC100832979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED37A902210FCCC100832979 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED37A903210FCCC100832979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED37A906210FCCC100832979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED37A909210FCCC100832979 /* terapeutas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = terapeutas.xcdatamodel; sourceTree = "<group>"; };
+		ED37A90B210FCCC200832979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED37A90E210FCCC200832979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED37A910210FCCC200832979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED37A911210FCCC200832979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED37A917210FCCC200832979 /* terapeutasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terapeutasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED37A91B210FCCC200832979 /* terapeutasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terapeutasTests.m; sourceTree = "<group>"; };
+		ED37A91D210FCCC200832979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED37A922210FCCC200832979 /* terapeutasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terapeutasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED37A926210FCCC200832979 /* terapeutasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = terapeutasUITests.m; sourceTree = "<group>"; };
+		ED37A928210FCCC300832979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED37A8F9210FCCC100832979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A914210FCCC200832979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A91F210FCCC200832979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED37A8F3210FCCC100832979 = {
+			isa = PBXGroup;
+			children = (
+				ED37A8FE210FCCC100832979 /* terapeutas */,
+				ED37A91A210FCCC200832979 /* terapeutasTests */,
+				ED37A925210FCCC200832979 /* terapeutasUITests */,
+				ED37A8FD210FCCC100832979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED37A8FD210FCCC100832979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED37A8FC210FCCC100832979 /* terapeutas.app */,
+				ED37A917210FCCC200832979 /* terapeutasTests.xctest */,
+				ED37A922210FCCC200832979 /* terapeutasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED37A8FE210FCCC100832979 /* terapeutas */ = {
+			isa = PBXGroup;
+			children = (
+				ED37A8FF210FCCC100832979 /* AppDelegate.h */,
+				ED37A900210FCCC100832979 /* AppDelegate.m */,
+				ED37A902210FCCC100832979 /* ViewController.h */,
+				ED37A903210FCCC100832979 /* ViewController.m */,
+				ED37A905210FCCC100832979 /* Main.storyboard */,
+				ED37A90B210FCCC200832979 /* Assets.xcassets */,
+				ED37A90D210FCCC200832979 /* LaunchScreen.storyboard */,
+				ED37A910210FCCC200832979 /* Info.plist */,
+				ED37A911210FCCC200832979 /* main.m */,
+				ED37A908210FCCC100832979 /* terapeutas.xcdatamodeld */,
+			);
+			path = terapeutas;
+			sourceTree = "<group>";
+		};
+		ED37A91A210FCCC200832979 /* terapeutasTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED37A91B210FCCC200832979 /* terapeutasTests.m */,
+				ED37A91D210FCCC200832979 /* Info.plist */,
+			);
+			path = terapeutasTests;
+			sourceTree = "<group>";
+		};
+		ED37A925210FCCC200832979 /* terapeutasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED37A926210FCCC200832979 /* terapeutasUITests.m */,
+				ED37A928210FCCC300832979 /* Info.plist */,
+			);
+			path = terapeutasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED37A8FB210FCCC100832979 /* terapeutas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED37A92B210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutas" */;
+			buildPhases = (
+				ED37A8F8210FCCC100832979 /* Sources */,
+				ED37A8F9210FCCC100832979 /* Frameworks */,
+				ED37A8FA210FCCC100832979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = terapeutas;
+			productName = terapeutas;
+			productReference = ED37A8FC210FCCC100832979 /* terapeutas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED37A916210FCCC200832979 /* terapeutasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED37A92E210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutasTests" */;
+			buildPhases = (
+				ED37A913210FCCC200832979 /* Sources */,
+				ED37A914210FCCC200832979 /* Frameworks */,
+				ED37A915210FCCC200832979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED37A919210FCCC200832979 /* PBXTargetDependency */,
+			);
+			name = terapeutasTests;
+			productName = terapeutasTests;
+			productReference = ED37A917210FCCC200832979 /* terapeutasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED37A921210FCCC200832979 /* terapeutasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED37A931210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutasUITests" */;
+			buildPhases = (
+				ED37A91E210FCCC200832979 /* Sources */,
+				ED37A91F210FCCC200832979 /* Frameworks */,
+				ED37A920210FCCC200832979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED37A924210FCCC200832979 /* PBXTargetDependency */,
+			);
+			name = terapeutasUITests;
+			productName = terapeutasUITests;
+			productReference = ED37A922210FCCC200832979 /* terapeutasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED37A8F4210FCCC100832979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Fernando Mateo";
+				TargetAttributes = {
+					ED37A8FB210FCCC100832979 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ED37A916210FCCC200832979 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED37A8FB210FCCC100832979;
+					};
+					ED37A921210FCCC200832979 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED37A8FB210FCCC100832979;
+					};
+				};
+			};
+			buildConfigurationList = ED37A8F7210FCCC100832979 /* Build configuration list for PBXProject "terapeutas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED37A8F3210FCCC100832979;
+			productRefGroup = ED37A8FD210FCCC100832979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED37A8FB210FCCC100832979 /* terapeutas */,
+				ED37A916210FCCC200832979 /* terapeutasTests */,
+				ED37A921210FCCC200832979 /* terapeutasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED37A8FA210FCCC100832979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED37A90F210FCCC200832979 /* LaunchScreen.storyboard in Resources */,
+				ED37A90C210FCCC200832979 /* Assets.xcassets in Resources */,
+				ED37A907210FCCC100832979 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A915210FCCC200832979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A920210FCCC200832979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED37A8F8210FCCC100832979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED37A904210FCCC100832979 /* ViewController.m in Sources */,
+				ED37A90A210FCCC100832979 /* terapeutas.xcdatamodeld in Sources */,
+				ED37A912210FCCC200832979 /* main.m in Sources */,
+				ED37A901210FCCC100832979 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A913210FCCC200832979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED37A91C210FCCC200832979 /* terapeutasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A91E210FCCC200832979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED37A927210FCCC300832979 /* terapeutasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED37A919210FCCC200832979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED37A8FB210FCCC100832979 /* terapeutas */;
+			targetProxy = ED37A918210FCCC200832979 /* PBXContainerItemProxy */;
+		};
+		ED37A924210FCCC200832979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED37A8FB210FCCC100832979 /* terapeutas */;
+			targetProxy = ED37A923210FCCC200832979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED37A905210FCCC100832979 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED37A906210FCCC100832979 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED37A90D210FCCC200832979 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED37A90E210FCCC200832979 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED37A929210FCCC300832979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED37A92A210FCCC300832979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED37A92C210FCCC300832979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED37A92D210FCCC300832979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED37A92F210FCCC300832979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terapeutas.app/terapeutas";
+			};
+			name = Debug;
+		};
+		ED37A930210FCCC300832979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terapeutas.app/terapeutas";
+			};
+			name = Release;
+		};
+		ED37A932210FCCC300832979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terapeutas;
+			};
+			name = Debug;
+		};
+		ED37A933210FCCC300832979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BD64E97B6;
+				INFOPLIST_FILE = terapeutasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mateo.terapeutasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terapeutas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED37A8F7210FCCC100832979 /* Build configuration list for PBXProject "terapeutas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED37A929210FCCC300832979 /* Debug */,
+				ED37A92A210FCCC300832979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED37A92B210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED37A92C210FCCC300832979 /* Debug */,
+				ED37A92D210FCCC300832979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED37A92E210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED37A92F210FCCC300832979 /* Debug */,
+				ED37A930210FCCC300832979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED37A931210FCCC300832979 /* Build configuration list for PBXNativeTarget "terapeutasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED37A932210FCCC300832979 /* Debug */,
+				ED37A933210FCCC300832979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED37A908210FCCC100832979 /* terapeutas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED37A909210FCCC100832979 /* terapeutas.xcdatamodel */,
+			);
+			currentVersion = ED37A909210FCCC100832979 /* terapeutas.xcdatamodel */;
+			path = terapeutas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED37A8F4210FCCC100832979 /* Project object */;
+}
